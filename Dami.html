@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Specially For You ✨</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet" />
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="Dami.css" />
+</head>
+<body>
+  <!-- Canvas for floating sparkle & petal particles -->
+  <canvas id="particleCanvas"></canvas>
+
+  <div class="page-wrapper">
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="badge">A Little Digital Keepsake 🌸</div>
+      <h1 class="hero-title">Happy Birthday, <span class="gold-text">Damilola!</span></h1>
+      <p class="hero-subtitle">
+        When you have me a friend who is a developer, you get a specially curated birthday website :).
+      </p>
+      <div class="hero-buttons">
+        <a href="DamiGal.html" class="btn btn-gold">View Gallery 📷</a>
+        <a href="Daminotes.html" class="btn btn-secondary">Read Note 💌</a>
+        
+        
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Compliment Card -->
+      <section class="card glass-card compliment-section">
+        <div class="card-icon">✨</div>
+        <h2 class="section-title">Today's Reminder</h2>
+        <p class="compliment-text" id="complimentDisplay">
+          "Click the button below whenever you need a quick reminder of how amazing you are!"
+        </p>
+        
+        <a href="Damireminder.html" class="btn btn-gold">New Reason You're Awesome</a>
+        
+      </section>
+         
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Designed by Nate</p>
+    </footer>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close modal">&times;</button>
+    <img id="lightboxImg" src="" alt="Expanded View" />
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+  <canvas id="celebrationCanvas"></canvas>
+
+  <div class="page-wrapper">
+    <!-- your existing content -->
+  </div>
+
+  <script src="celebration.js"></script>
+</body>
+</html>
